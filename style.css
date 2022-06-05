@@ -1,0 +1,44 @@
+.header_div{
+    background-color:white !important;
+    box-shadow: 5px 10px 20px skyblue inset;
+    border: 20px solid rgb(38, 42, 161);
+    font-family: 'Magra', sans-serif;
+   
+
+    
+}
+.header_div h1{
+    background: #40A4CF;
+background: linear-gradient(to right, #40A4CF 18%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.header_div p{
+    color:red;
+    font-family:monospace;
+}
+body{
+background: rgb(113,24,239);
+background: linear-gradient(90deg, rgba(113,24,239,1) 18%, rgba(15,159,160,1) 45%, rgba(11,115,125,1) 64%, rgba(14,121,155,1) 84%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+}
+.main_div button{
+ margin-top:20px;
+ color:blue;
+ font-family:'Times New Roman', Times, serif;
+ font-size:30px;
+ text-shadow: 1.5px 1.5px 1.5px   darkblue;
+ box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+.copy_right_footer{
+    font-size:25px;
+    color:darkred;
+    bottom:0;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    border-style:solid;
+    border-width:10px;
+    border-color:rgb(212, 38, 38);
+    text-shadow: 5px 5px 5px darkorchid;
+}
